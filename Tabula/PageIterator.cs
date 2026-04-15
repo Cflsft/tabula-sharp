@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UglyToad.PdfPig;
@@ -36,9 +36,9 @@ namespace Tabula
                 {
                     return ObjectExtractor.ExtractPage(this.pdfDocument, pageIndexIterator.Current);
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
-                    throw ex;
+                    throw;
                 }
             }
         }
