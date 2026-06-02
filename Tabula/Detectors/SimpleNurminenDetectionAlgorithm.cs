@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Tabula.Extractors;
@@ -190,7 +190,7 @@ namespace Tabula.Detectors
 
             double predominantDirection = 0;
             
-            if (allTextElements.Any())
+            if (allTextElements.Count > 0)
             { 
 
                 // calcular la dirección predominante
